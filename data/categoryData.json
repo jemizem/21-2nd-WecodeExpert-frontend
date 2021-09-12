@@ -1,0 +1,62 @@
+{
+    "results": [
+        {
+            "name": "Javascript",
+            "image":
+              "https://i.imgur.com/pyMaNRl.png",
+            "url": "/category/1"
+          },
+          {
+            "name" : "Python",
+            "image" :
+              "https://i.imgur.com/f4q1nUO.png",
+            "url" : "/category/2"
+          },
+          {
+            "name" : "React",
+            "image" :
+              "https://i.imgur.com/9geJlix.png",
+            "url" : "/category/3"
+          },
+          {
+            "name" : "HTML",
+            "image" :
+              "https://i.imgur.com/9RDZ8NN.png",
+            "url" : "/category/4"
+          },
+          {
+            "name" : "Go",
+            "image" :
+              "https://i.imgur.com/E3kuyDz.png",
+            "url" : "/category/5"
+          },
+        
+          {
+            "name" : "Mysql",
+            "image" :
+              "https://i.imgur.com/DXfnsTv.png",
+            "url" : "/category/6"
+          },
+        
+          {
+            "name" : "Java",
+            "image" :
+              "https://i.imgur.com/PGt2Mhj.png",
+            "url" : "/category/7"
+          },
+        
+          {
+            "name" : "C언어",
+            "image" :
+              "https://i.imgur.com/Kc18Qkt.png",
+            "url" : "/category/8"
+          },
+        
+          {
+            "name" : "C++",
+            "image" :
+              "https://i.imgur.com/gqX1hXw.png",
+            "url" : "/category/9"
+          }
+    ]
+}

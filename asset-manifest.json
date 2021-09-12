@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/21-2nd-WecodeExpert-frontend/static/css/main.e009a2c8.chunk.css",
+    "main.js": "/21-2nd-WecodeExpert-frontend/static/js/main.948ab381.chunk.js",
+    "main.js.map": "/21-2nd-WecodeExpert-frontend/static/js/main.948ab381.chunk.js.map",
+    "runtime-main.js": "/21-2nd-WecodeExpert-frontend/static/js/runtime-main.8e174668.js",
+    "runtime-main.js.map": "/21-2nd-WecodeExpert-frontend/static/js/runtime-main.8e174668.js.map",
+    "static/css/2.adb36cae.chunk.css": "/21-2nd-WecodeExpert-frontend/static/css/2.adb36cae.chunk.css",
+    "static/js/2.13c24bf9.chunk.js": "/21-2nd-WecodeExpert-frontend/static/js/2.13c24bf9.chunk.js",
+    "static/js/2.13c24bf9.chunk.js.map": "/21-2nd-WecodeExpert-frontend/static/js/2.13c24bf9.chunk.js.map",
+    "index.html": "/21-2nd-WecodeExpert-frontend/index.html",
+    "static/css/2.adb36cae.chunk.css.map": "/21-2nd-WecodeExpert-frontend/static/css/2.adb36cae.chunk.css.map",
+    "static/css/main.e009a2c8.chunk.css.map": "/21-2nd-WecodeExpert-frontend/static/css/main.e009a2c8.chunk.css.map",
+    "static/js/2.13c24bf9.chunk.js.LICENSE.txt": "/21-2nd-WecodeExpert-frontend/static/js/2.13c24bf9.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/21-2nd-WecodeExpert-frontend/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8e174668.js",
+    "static/css/2.adb36cae.chunk.css",
+    "static/js/2.13c24bf9.chunk.js",
+    "static/css/main.e009a2c8.chunk.css",
+    "static/js/main.948ab381.chunk.js"
+  ]
+}
