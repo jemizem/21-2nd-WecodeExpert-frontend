@@ -76,8 +76,8 @@ function Nav(props) {
                 {categoryValid && <NavCategory isCheck={categoryValid} />}
               </ItemLink>
               <ItemLink
-                onMouseEnter={loginModalon}
-                onMouseLeave={loginModalOff}
+              // onMouseEnter={loginModalon}
+              // onMouseLeave={loginModalOff}
               >
                 {localStorage.getItem('Wexpert_token') && (
                   <UserImg
@@ -173,7 +173,7 @@ const UserItems = styled.div`
   font-size: 18px;
 `;
 
-const ItemLink = styled.a`
+const ItemLink = styled.span`
   margin: 0 5px;
   position: relative;
   font-size: 22px;

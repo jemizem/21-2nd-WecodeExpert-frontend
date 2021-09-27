@@ -13,7 +13,8 @@ function Detail({ location, match }) {
 
   useEffect(() => {
     // 상품 Mock Data
-    fetch(`${GET_PRODUCT_API}/${match.params.id}`)
+    // fetch(`${GET_PRODUCT_API}/${match.params.id}`)
+    fetch('/21-2nd-WecodeExpert-frontend/data/ProductData.json')
       .then(res => res.json())
       .then(data => setProduct(data.result));
   }, []);

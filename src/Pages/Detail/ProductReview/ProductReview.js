@@ -8,7 +8,8 @@ function ProductReview({ product }) {
   const [page, setPage] = useState(1);
 
   useEffect(() => {
-    fetch(`${GET_PRODUCT_API}/${product.product_id}/review`)
+    // fetch(`${GET_PRODUCT_API}/${product.product_id}/review`)
+    fetch('/21-2nd-WecodeExpert-frontend/data/ReviewData.json')
       .then(res => res.json())
       .then(data => setReviews(data.result));
   }, []);

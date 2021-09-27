@@ -68,7 +68,7 @@ function BannerSlider() {
       <BannerBg color={BANNERS[slideIndex].color}>
         <BannerInner>
           <BannerItem>
-            <BannerInfo href={BANNERS[slideIndex].link} target="_blank">
+            <BannerInfo to={BANNERS[slideIndex].link} target="_blank">
               <BannerTitle>
                 {BANNERS[slideIndex].title.split('\n').map((line, i) => (
                   <div key={i}>
@@ -208,7 +208,7 @@ const BannerItem = styled.div`
   overflow: hidden;
 `;
 
-const BannerInfo = styled.a`
+const BannerInfo = styled(Link)`
   position: absolute;
   top: 30px;
   left: 0;
@@ -273,12 +273,15 @@ const ProgressBar = styled.div`
   vertical-align: top;
 `;
 
-const Progress = styled.div`
+const Progress = styled.div.attrs(props => ({
+  style: {
+    width: props.width,
+  },
+}))`
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
-  width: ${props => props.width};
   background: #fff;
   transition: width 0.1s linear;
 `;

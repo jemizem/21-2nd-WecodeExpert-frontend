@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import BannerSlider from './BannerSlider/BannerSlider';
 import SwipeToSlide from './SwipeToSlide/SwipeToSlide';
-import { GET_PRODUCT_API } from '../../config';
+// import { GET_PRODUCT_API } from '../../config';
 
 function Main() {
   const [bestseller, setBestseller] = useState([]);
@@ -13,12 +13,13 @@ function Main() {
     window.scrollTo(0, 0);
 
     // 카테고리 Mock Data
-    fetch('/data/categoryData.json')
+    fetch('/21-2nd-WecodeExpert-frontend/data/categoryData.json')
       .then(res => res.json())
       .then(data => setCategories(data.results));
 
     // 구매율이 높은 인기상품
-    fetch(`${GET_PRODUCT_API}?sort=sell_count&limit=10`)
+    //fetch(`${GET_PRODUCT_API}?sort=sell_count&limit=10`)
+    fetch('/21-2nd-WecodeExpert-frontend/data/bestItemData.json')
       .then(res => res.json())
       .then(data => setBestseller(data.result));
   }, []);

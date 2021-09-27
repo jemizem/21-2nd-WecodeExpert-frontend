@@ -1,4 +1,5 @@
 import { React, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 function ExpertIntroduce() {
@@ -14,7 +15,7 @@ function ExpertIntroduce() {
         신청이 완료됩니다.
       </Description>
       <StepButtonBox>
-        <StepButton active={true} href="/expert/join/type">
+        <StepButton active={true} to="/expert/join/type">
           <span>1. 신청서 작성하기</span>
         </StepButton>
         <StepBar></StepBar>
@@ -78,7 +79,7 @@ const StepButtonBox = styled.div`
   text-align: center;
 `;
 
-const StepButton = styled.a`
+const StepButton = styled(Link)`
   display: inline-block;
   width: 260px;
   height: 80px;

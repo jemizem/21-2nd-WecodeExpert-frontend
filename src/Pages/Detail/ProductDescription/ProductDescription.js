@@ -8,7 +8,6 @@ function ProductDescription({ product }) {
   useEffect(() => {
     window.scrollTo(0, 0);
 
-    // TODO 상세설명란 길이가 작을 경우 상품상세 더보기 버튼이 안보여야 하는데..
     if (contentViewer.current.clientHeight > 100) {
       setIsShowMoreContent(false);
     }
